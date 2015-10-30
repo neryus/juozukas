@@ -188,20 +188,7 @@ window.open(URL, 'window', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menuba
 				{/if}
                 <!--prekes kaina pabaiga-->
 
-				<!--kaina litais-->
-                {if $cms->activePage->kaina > 0}
-						 <h3 style="margin:0.8em 0; font-weight:normal; font-family:Helvetica,'Open-sans', sans-serif;">
-					<span>Kaina litais:</span>
-						{if $cms->activePage->seniausia_kaina > 0}
-							<span>{$cms->activePage->seniausia_kaina}</span>
-							<span style="position:relative;">LTL</span> 
-						{/if}
-						</h3>
-				{/if}
-                <!-- kaina litais pabaiga-->
-                                     
-                        
-					 </div>
+		</div>
                      <!--prekes info-->
                      
                 
