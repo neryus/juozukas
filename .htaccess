@@ -57,20 +57,25 @@ Redirect 301 /marsk_miss.html http://juozukas.lt/lt/produktai/moteriski-marskine
 
 #strange stuff
 Redirect 301 /admin.php http://www.juozukas.lt/index.php
-Redirect 301 /wp-login.php http://www.juozukas.lt/index.php
-Redirect 301 //plugins/likebox.php http://www.juozukas.lt/index.php
-Redirect 301 /xmlrpc.php http://www.juozukas.lt/index.php
-Redirect 301 /wp-trackback.php http://www.juozukas.lt/index.php
 Redirect 301 /admin-ajax.php http://www.juozukas.lt/index.php
 Redirect 301 /administrator/ http://www.juozukas.lt/index.php
-Redirect 301 /libraries/lol.php http://www.juozukas.lt/index.php
-Redirect 301 /libraries/joomla/css.php http://www.juozukas.lt/index.php
-Redirect 301 /moadmin.php http://www.juozukas.lt/index.php
-Redirect 301 /Licence.txt http://www.juozukas.lt/index.php
-Redirect 301 /licence.txt http://www.juozukas.lt/index.php
+Redirect 301 /conns.php http://www.juozukas.lt/index.php
+Redirect 301 /configuration.php http://www.juozukas.lt/index.php
+Redirect 301 /configbak.php http://www.juozukas.lt/index.php
+Redirect 301 //plugins/likebox.php http://www.juozukas.lt/index.php
+Redirect 301 /xmlrpc.php http://www.juozukas.lt/index.php
 Redirect 301 /readme.html http://www.juozukas.lt/index.php
 Redirect 301 /kur.html http://www.juozukas.lt/lt/kontaktai/
 Redirect 301 /kontaktai.html http://www.juozukas.lt/lt/kontaktai/
+Redirect 301 /Licence.txt http://www.juozukas.lt/index.php
+Redirect 301 /licence.txt http://www.juozukas.lt/index.php
+Redirect 301 /libraries/lol.php http://www.juozukas.lt/index.php
+Redirect 301 /libraries/joomla/css.php http://www.juozukas.lt/index.php
+Redirect 301 /moadmin.php http://www.juozukas.lt/index.php
+Redirect 301 /wp-login.php http://www.juozukas.lt/index.php
+Redirect 301 /wp-checking.php http://www.juozukas.lt/index.php
+Redirect 301 /wp-trackback.php http://www.juozukas.lt/index.php
+Redirect 301 /stats.php http://www.juozukas.lt/index.php
 
 #images and other documents
 Redirect 301 /image/175x175/MC114.gif http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
