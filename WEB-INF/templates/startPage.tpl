@@ -1,4 +1,4 @@
-{include file='inc/header.inc.tpl' startPage=1}
+{include file='inc/header-index.inc.tpl' startPage=1}
 
 <table class="startpage-table">
 	{assign var=startTop value=$cms->getStartTop()}
@@ -6,52 +6,6 @@
 	<tr>
 		<td valign="top" width="100%">
 			<table class="start-items-list">
-				<!--<tr>
-					<td align="left" valign="top" class="top-items">
-						{foreach from=$startTop->getList() item=startTopItem name="startTopFor"}
-								<div class="start-item{if $smarty.foreach.startTopFor.last} lastItem{/if}">
-									{assign var=showImage value=false}
-									{if $startTopItem->hasImages()}
-										{assign var=showImage value=true}
-										{assign var=images value=$startTopItem->getImages()}
-									{/if}
-									{assign var="appImage" value=$startTopItem->getAppImage('thumb_b')}
-									{assign var=kelias value=$startTopItem->getFullPath()}
-									<div class="start-image" style="background: url('{if $appImage}{$appImage}{else}{if $showImage}/media/dynamic/img/{$images[0]->page_id}/{$images[0]->page_image_id}_thumb_b_{$images[0]->file_name}{else}/media/no-image-big.gif{/if}{/if}') center center no-repeat;">
-										<a href="{$kelias->full_path}"><span class="start-image-price lightning-price">{$startTopItem->kaina} &euro;</span></a>
-									</div>
-									<div class="name-author">
-										<a href="{$kelias->full_path}">{$startTopItem->name|smartwordwrap:19:" ":1:1:"..."}</a>
-										<div>{$startTopItem->autorius}</div>
-									</div>
-								</div>
-						{/foreach}
-					</td>
-				</tr>-->
-				
-				<!--<tr>
-					<td align="left" valign="top" class="top-items">
-						{foreach from=$startTop->getList() item=startTopItem name="startTopFor"}
-								<div class="start-item{if $smarty.foreach.startTopFor.last} lastItem{/if}">
-									{assign var=showImage value=false}
-									{if $startTopItem->hasImages()}
-										{assign var=showImage value=true}
-										{assign var=images value=$startTopItem->getImages()}
-									{/if}
-									{assign var="appImage" value=$startTopItem->getAppImage('thumb_b')}
-									{assign var=kelias value=$startTopItem->getFullPath()}
-									<div class="start-image" style="background: url('{if $appImage}{$appImage}{else}{if $showImage}/media/dynamic/img/{$images[0]->page_id}/{$images[0]->page_image_id}_thumb_b_{$images[0]->file_name}{else}/media/no-image-big.gif{/if}{/if}') center center no-repeat;">
-										<a href="{$kelias->full_path}"><span class="start-image-price lightning-price">{$startTopItem->kaina} &euro;</span></a>
-									</div>
-									<div class="name-author">
-										<a href="{$kelias->full_path}">{$startTopItem->name|smartwordwrap:19:" ":1:1:"..."}</a>
-										<div>{$startTopItem->autorius}</div>
-									</div>
-								</div>
-						{/foreach}
-					</td>
-				</tr>-->
-				
 				<tr>
 					<td align="left" valign="top">
 						{assign var=startBottom value=$cms->getStartBottom()}
@@ -60,7 +14,7 @@
 								<div class="start-item item-{cycle values='1,2,3'}" onmouseover="this.id='mkon'" onmouseout="this.id=''">
 									{assign var=showImage value=false}
 									{if $startTopItem->hasImages()}
-										
+
 										{assign var=showImage value=true}
 										{assign var=images value=$startTopItem->getImages()}
 									{/if}
@@ -82,16 +36,13 @@
 				</tr>
 			</table>
 		</td>
-		<!--<td valign="top" class="start-right" >
-			{include file="inc/rightitem.tpl" startpage=1}
-		</td>-->
 	</tr>
-	
+
 	<tr>
 	 <td>
       <table cellpadding="0" cellspacing="0" border="0" style="width:95%" align="center">
-    
-    <!--papildomi mygtukai pradzia-->    
+
+    <!--papildomi mygtukai pradzia-->
     <tr>
      <td>
      <div class="block-visi">
@@ -103,11 +54,11 @@
      </td>
     </tr>
     <!--pabaiga papildomi mygtukai-->
-      </table>
+    </table>
 	 </td>
 	</tr>
-	
+
 	{/if}
 </table>
 
-{include file='inc/footer.inc.tpl'}
+{include file='inc/footer-index.inc.tpl'}
