@@ -7,7 +7,7 @@
 	{assign var=startdata value=$cms->getDirectoryByIndent('startpage')}
 	{assign var=startinfo value=$startdata->getPageByIndent('startpage')}
 	<title>{if $cms->path[1]}{assign var=parent value=$cms->activeDirectory->getParent()}{assign var=parentas value=$cms->activeDirectory->getParent()}{/if}{if $cms->activePage}{if $cms->activePage->title}{$cms->activePage->title}{else}{$cms->activePage->name} - {if $cms->path[0]->indent == 'tmProduktai'}{if $cms->activePage->autorius != ''}{$cms->activePage->autorius} - {/if}{if $parent->name != $cms->path[0]->name}{$parent->name} {/if}{$cms->activeDirectory->name|lower} {else} {$startinfo->title}{/if}{/if}{elseif $cms->activeDirectory}{if $cms->activeDirectory->title}{$cms->activeDirectory->title}{else}{if $cms->path[0]->indent == 'tmProduktai'}{if $parent->name != $cms->path[0]->name && $cms->path[0]->indent == 'tmProduktai'}{$parent->name} {/if}{$cms->activeDirectory->name|lower}{else}{$cms->activeDirectory->name}{/if}{/if} | {$startinfo->title}{else}{$startinfo->title}{/if}</title>
-	
+
 	<meta name="description" content="{if $cms->activePage}{if $cms->activePage->meta_desc != ''}{$cms->activePage->meta_desc}{else}{if $cms->path[0]->indent == 'tmProduktai'}{if $parent->name != $cms->path[0]->name}{$parent->name} {/if}{$cms->activeDirectory->name|lower} - {$cms->activePage->name}. Marškinėliai pagaminti www.juozukas.lt komandos. {else}{$startinfo->meta_desc}{/if}{/if}{else}{$startinfo->meta_desc}{/if}" >
 	<meta name="keywords" content="{if $cms->activePage}{if $cms->activePage->meta_keys != ''}{$cms->activePage->meta_keys}{else}{if $cms->path[0]->indent == 'tmProduktai'}{$cms->activePage->name},{if $cms->activePage->autorius != ''} {$cms->activePage->autorius},{/if} {if $cms->path[0]->indent == 'tmProduktai'}{if $parent->name != $cms->path[0]->name}{$parent->name} {/if}{$cms->activeDirectory->name|lower}{/if}{else}{$startinfo->meta_keys}{/if}{/if}{else}{$startinfo->meta_keys}{/if}" >
 	<meta property="fb:admins" content="100001918877846" />
@@ -15,11 +15,7 @@
 	<link rel="stylesheet" type="text/css" href="/media/yui/reset/reset.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="/media/yui/fonts/fonts.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="/media/style.css" media="screen" />
-
-	<link rel="stylesheet" type="text/css" href="/media/versija4.css" media="screen" />
-	<!--[if IE 6]><link type="text/css" href="/media/ie7.css" rel="stylesheet" media="screen" /><![endif]-->
- 	<!--[if IE 7]><link type="text/css" href="/media/ie7.css" rel="stylesheet" media="screen" /><![endif]-->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>	
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="/media/jquery-1.7.1.min.js"></script>
 	<script type="text/javascript">
   $.noConflict();
@@ -31,7 +27,7 @@
 	<script type="text/javascript" src="http://www.plaxo.com/css/m/js/util.js"></script>
 	<script type="text/javascript" src="http://www.plaxo.com/css/m/js/basic.js"></script>
 	<script type="text/javascript" src="http://www.plaxo.com/css/m/js/abc_launcher.js"></script>
-	
+
 	{literal}
 	<script type="text/javascript"><!--
 	function onABCommComplete() {
@@ -46,17 +42,21 @@
 	<meta property="og:image" content="http://www.juozukas.lt/media/dynamic/img/{$imagesHd.0->page_id}/{$imagesHd.0->page_image_id}_regular_2_{$imagesHd.0->file_name}"/>
 	{/if}
 	{/if}
-		
+
 {literal}
-<!--Start of Zopim Live Chat Script-->
+<!--Start of Tawk.to Script-->
 <script type="text/javascript">
-window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
-d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
-_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
-$.src="//v2.zopim.com/?3g5ocvO4k3gHNeBsmUxyIw2W1uPbMNqk";z.t=+new Date;$.
-type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/57f9375b0251ff2807a7da2d/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 </script>
-<!--End of Zopim Live Chat Script-->
+<!--End of Tawk.to Script-->
 {/literal}
 
 <!--  google analytics -->
@@ -72,8 +72,8 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
 </script>
     {/literal}
-<!-- /google analytics -->	
-    
+<!-- /google analytics -->
+
 </head>
 <body>
 
@@ -114,7 +114,7 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 			$('nd-atsaukti').addEvent('click', function(event){
 				$('nusiusk-draugui').setStyle('display', 'none');
 				$('mask').set('class', '');
-				event.preventDefault(); 
+				event.preventDefault();
 			});
 			</script>
 			{/literal}
@@ -139,12 +139,12 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 		<form action="{$cms->activeDirectory->full_path}{$cms->activePage->file}" method="post" name="ndforma" id="ndforma">
 		<input type="hidden" name="nusiusk-draugui" value="1" />
 		<div class="nd-form">
-				
+
 				<div class="inputs-row">
-					<input type="text" class="nd-input" name="nd-name" value="{if $ndName}{$ndName}{else}Tavo vardas{/if}" 
+					<input type="text" class="nd-input" name="nd-name" value="{if $ndName}{$ndName}{else}Tavo vardas{/if}"
 					onblur="{literal}if (this.value == '') {this.value = 'Tavo vardas';}{/literal}"
 					onfocus="{literal}if (this.value == 'Tavo vardas') {this.value = '';}{/literal}" />
-					
+
 					<input type="text" class="nd-input with-friend" name="nd-friend[]" value="{if $ndFriend.0}{$ndFriend.0}{else}Draugo el. pašto adresas{/if}"
 					onblur="{literal}if (this.value == '') {this.value = 'Draugo el. pašto adresas';}{/literal}"
 					onfocus="{literal}if (this.value == 'Draugo el. pašto adresas') {this.value = '';}{/literal}" />
@@ -185,7 +185,7 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 					 </script>
 					{/literal}
 					<div id="recaptcha_image"></div>
-					<input type="text" class="nd-input" id="recaptcha_response_field" name="recaptcha_response_field" value="" /> 
+					<input type="text" class="nd-input" id="recaptcha_response_field" name="recaptcha_response_field" value="" />
 					{php}
 					/* private key 6LfIeb4SAAAAAMMSaDWQCOkPwi6odiIggoFq7DBL */
 					/* public key 6LfIeb4SAAAAAPdYwGcVK_benln7duFKhfdsTkON */
@@ -196,14 +196,14 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 				</div>
 				<div style="clear:left;"></div>
 		</div>
-		
-		
+
+
 		<div class="nd-buttons">
 			<a onmouseover="this.className='ok-button ok-button-on'" onmouseout="this.className='ok-button'"  class="ok-button" href="javascript:document.ndforma.submit();"><span>siųsti</span></a>
 		</div>
-		
+
 		</form>
-		
+
 		</div>
 	</div>
 	</div>
@@ -212,30 +212,30 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 	$('isismti').addEvent('click', function(event){
 		$('nusiusk-draugui').setStyle('display', 'none');
 		$('mask').set('class', '');
-	    	event.preventDefault(); 
+	    	event.preventDefault();
 	});
 	$('prideti-dar-viena').addEvent('click', function(event){
 		var insideElement = new Element('div', {'class': 'inputs-row width-more-padd'});
 		var insideInput = new Element('input', {'type': 'text', 'class': 'nd-input with-friend', 'name': 'nd-friend[]', 'value': ''});
 		insideElement.grab(insideInput);
 		$('addresses-field').grab(insideElement);
-		event.preventDefault(); 
+		event.preventDefault();
 	});
 	</script>
 	{/literal}
 	{/if}
-    
+
     <!--registracija ir prisijungimas-->
     <!--end registracija ir prisijungimas-->
-    
+
 	<div class="wrapper">
-    
+
 	<!-- header -->
 	<div class="header">
 		<span class="logo"><a href="http://www.juozukas.lt/index.php">juozukas.lt - pradinis puslapis</a></span>
 		<div class="headerBasket">
 			<table>
-				<tr>					
+				<tr>
 					<td valign="top">
 						<a href="/lt/uzsakymas/" class="basket-amount">{$totalBasketItems}</a>
 					</td>
@@ -294,7 +294,7 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 			{assign var=sizeList value=$topDirItem->getSizeAllPages()}
 			{if $sizeList|@count gt 0}
 			<div class="pagal-dydy">
-				Rūšiuoti pagal dydį:<span style="font: bold tahoma;"> 
+				Rūšiuoti pagal dydį:<span style="font: bold tahoma;">
 				{foreach from=$sizeList item=size}
 				<a href="{literal}javascript:updateFormSubmit('{/literal}{$size->dydis}','form_{$topDirItem->directory_id}{literal}');{/literal}">{$size->dydis}</a>
 				{/foreach}
@@ -342,13 +342,13 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 			{/if}
 			</li>
 		</ul>
-		
+
 	</div>
 	<!-- /header -->
-	
-	
-	
-	
+
+
+
+
 	{if $startPage == 1}
 		{if $startinfo->start_tpl == 'default'}
 		{assign var=startTop value=$cms->getStartTop()}
@@ -405,7 +405,7 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 		}
 		{/php**}
 		{/if}
-		
+
 	{/if}
 	<!--  start page image -->
 	<div class="content content-inside"{if $isTopImage} style="background: none;"{/if}>
@@ -426,6 +426,6 @@ Pažiūrėk kokie šaunūs marškinėliai.{/if}</textarea>
 			{/if}
 			</div>
 		</div>
-		
+
 		<div style="clear:left;"></div>
 	{/if}
