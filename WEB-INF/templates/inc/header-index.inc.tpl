@@ -42,6 +42,23 @@
 	<meta property="og:image" content="http://www.juozukas.lt/media/dynamic/img/{$imagesHd.0->page_id}/{$imagesHd.0->page_image_id}_regular_2_{$imagesHd.0->file_name}"/>
 	{/if}
 	{/if}
+
+	<!--  google analytics -->
+
+	  {literal}
+	  <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-547022-5', 'auto');
+	  ga('send', 'pageview');
+
+	  </script>
+	  {/literal}
+
+	<!-- /google analytics -->
 </head>
 <body>
 
