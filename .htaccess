@@ -58,13 +58,16 @@ Redirect 301 /marsk_miss.html http://juozukas.lt/lt/produktai/moteriski-marskine
 Redirect 301 /lt/produktai/vyriski-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/
 Redirect 301 /lt/produktai/moteriski-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/
 
-#strange stuff
+#miscellaneous
 Redirect 301 /11.php http://www.juozukas.lt/index.php
 Redirect 301 /adodb.class.php http://www.juozukas.lt/index.php
 Redirect 301 /admin.php http://www.juozukas.lt/index.php
 Redirect 301 /admin/index.php http://www.juozukas.lt/index.php
+Redirect 301 /admin/fckeditor/editor/filemanager/connectors/asp/connector.asp http://www.juozukas.lt/index.php
+Redirect 301 /admin/fckeditor/editor/filemanager/upload/php/upload.php http://www.juozukas.lt/index.php
 Redirect 301 /admin-ajax.php http://www.juozukas.lt/index.php
 Redirect 301 /administrator/ http://www.juozukas.lt/index.php
+Redirect 301 /blogs/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /cache.php http://www.juozukas.lt/index.php
 Redirect 301 /cfiles.php http://www.juozukas.lt/index.php
 Redirect 301 /CHANGELOG.php http://www.juozukas.lt/index.php
@@ -72,8 +75,10 @@ Redirect 301 /conns.php http://www.juozukas.lt/index.php
 Redirect 301 /configuration.php http://www.juozukas.lt/index.php
 Redirect 301 /configurationbak.php http://www.juozukas.lt/index.php
 Redirect 301 /configbak.php http://www.juozukas.lt/index.php
+Redirect 301 /cms/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /.cpanel_config.php http://www.juozukas.lt/index.php
 Redirect 301 /database.php http://www.juozukas.lt/index.php
+Redirect 301 /en/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /error-log.php http://www.juozukas.lt/index.php
 Redirect 301 /filess.php http://www.juozukas.lt/index.php
 Redirect 301 /get.php http://www.juozukas.lt/index.php
@@ -88,9 +93,12 @@ Redirect 301 /licence.txt http://www.juozukas.lt/index.php
 Redirect 301 /licence.php http://www.juozukas.lt/index.php
 Redirect 301 /libraries/lol.php http://www.juozukas.lt/index.php
 Redirect 301 /libraries/joomla/css.php http://www.juozukas.lt/index.php
+Redirect 301 //login.php http://www.juozukas.lt/index.php
+Redirect 301 /main/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /moadmin.php http://www.juozukas.lt/index.php
 Redirect 301 /modx.php http://www.juozukas.lt/index.php
 Redirect 301 /mide.php http://www.juozukas.lt/index.php
+Redirect 301 /news/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /news_parser.class.php http://www.juozukas.lt/index.php
 Redirect 301 /news.php http://www.juozukas.lt/index.php
 Redirect 301 /ooimg.php http://www.juozukas.lt/index.php
@@ -98,6 +106,7 @@ Redirect 301 /readme.html http://www.juozukas.lt/index.php
 Redirect 301 /resd.php http://www.juozukas.lt/index.php
 Redirect 301 /popup-pomo.php http://www.juozukas.lt/index.php
 Redirect 301 //plugins/likebox.php http://www.juozukas.lt/index.php
+Redirect 301 /site/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /start.php http://www.juozukas.lt/index.php
 Redirect 301 /stats.php http://www.juozukas.lt/index.php
 Redirect 301 /shell.php http://www.juozukas.lt/index.php
@@ -105,6 +114,9 @@ Redirect 301 /tempfs.php http://www.juozukas.lt/index.php
 Redirect 301 /tmp.php http://www.juozukas.lt/index.php
 Redirect 301 /upgrade.php http://www.juozukas.lt/index.php
 Redirect 301 /uu.php http://www.juozukas.lt/index.php
+Redirect 301 /web/wp-login.php http://www.juozukas.lt/index.php
+Redirect 301 /wp/ http://www.juozukas.lt/index.php
+Redirect 301 /wp/wp-login.php http://www.juozukas.lt/index.php
 Redirect 301 /wp-activate.php http://www.juozukas.lt/index.php
 Redirect 301 /wp-admin/admin-ajax.php http://www.juozukas.lt/index.php
 Redirect 301 /wp-login.php http://www.juozukas.lt/index.php
