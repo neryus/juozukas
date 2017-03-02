@@ -25,38 +25,38 @@ RewriteRule ^([a-z]{0,2})/([a-z0-9\/\_\-]+)/$ /index.php?action=cmsContent&url=/
 RewriteRule ^([a-z]{0,2})/([a-z0-9\/\_\-]+)\.html$ /index.php?action=cmsContent&url=/$1/$2.html&%{QUERY_STRING} [NC]
 
 #redirect pages
-Redirect 301 /nauji.xml http://www.juozukas.lt/index.php
-Redirect 301 /view.php http://www.juozukas.lt/index.php
-Redirect 301 /auto.html http://www.juozukas.lt/index.php
-Redirect 301 /index.html http://www.juozukas.lt/index.php
-Redirect 301 /namams.html http://www.juozukas.lt/index.php
-Redirect 301 /patarimai.html http://www.juozukas.lt/index.php
-Redirect 301 /paslaugos.html http://www.juozukas.lt/index.php
-Redirect 301 /dzemperiai.html http://www.juozukas.lt/index/php
-Redirect 301 /kur.html http://www.juozukas.lt/lt/kontaktai/
-Redirect 301 /kontaktai.html http://www.juozukas.lt/lt/kontaktai/
+#Redirect 301 /nauji.xml http://www.juozukas.lt/index.php
+#Redirect 301 /view.php http://www.juozukas.lt/index.php
+#Redirect 301 /auto.html http://www.juozukas.lt/index.php
+#Redirect 301 /index.html http://www.juozukas.lt/index.php
+#Redirect 301 /namams.html http://www.juozukas.lt/index.php
+#Redirect 301 /patarimai.html http://www.juozukas.lt/index.php
+#Redirect 301 /paslaugos.html http://www.juozukas.lt/index.php
+#Redirect 301 /dzemperiai.html http://www.juozukas.lt/index/php
+#Redirect 301 /kur.html http://www.juozukas.lt/lt/kontaktai/
+#Redirect 301 /kontaktai.html http://www.juozukas.lt/lt/kontaktai/
 
 #Redirect 301 /lt/naujienos http://www.juozukas.lt/lt/naujienos/
 #Redirect 301 /lt/uzsakymas http://www.juozukas.lt/index.php
 #Redirect 301 /duk.html http://www.juozukas.lt/lt/pagalba/
 #Redirect 301 /lt/pagalba http://www.juozukas.lt/lt/pagalba/
 
-Redirect 301 /marsk_regent.html http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
-Redirect 301 /marsk_mrg_be.html http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
-Redirect 301 /blog http://www.juozukas.lt/index.php
-Redirect 301 /marsk_mrg_gili.html http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte/
-Redirect 301 /marsk_vk.html http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai/?showall=1
-Redirect 301 /vaikinams.html http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai/?showall=1
-Redirect 301 /marsk_vk_be.html http://juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
-Redirect 301 /marsk_melrose.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
-Redirect 301 /merginoms.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
-Redirect 301 /marsk_mojito.html http://juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
-Redirect 301 /marsk_mrg.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
-Redirect 301 /marsk_vk_ilg.html http://juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
-Redirect 301 /marsk_coconut.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
-Redirect 301 /marsk_miss.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
-Redirect 301 /lt/produktai/vyriski-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/
-Redirect 301 /lt/produktai/moteriski-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/
+#Redirect 301 /marsk_regent.html http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
+#Redirect 301 /marsk_mrg_be.html http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
+#Redirect 301 /blog http://www.juozukas.lt/index.php
+#Redirect 301 /marsk_mrg_gili.html http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte/
+#Redirect 301 /marsk_vk.html http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai/?showall=1
+#Redirect 301 /vaikinams.html http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai/?showall=1
+#Redirect 301 /marsk_vk_be.html http://juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
+#Redirect 301 /marsk_melrose.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
+#Redirect 301 /merginoms.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
+#Redirect 301 /marsk_mojito.html http://juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
+#Redirect 301 /marsk_mrg.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
+#Redirect 301 /marsk_vk_ilg.html http://juozukas.lt/lt/produktai/vyriski-marskineliai/?showall=1
+#Redirect 301 /marsk_coconut.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
+#Redirect 301 /marsk_miss.html http://juozukas.lt/lt/produktai/moteriski-marskineliai/?showall=1
+#Redirect 301 /lt/produktai/vyriski-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/
+#Redirect 301 /lt/produktai/moteriski-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/
 
 #miscellaneous
 Redirect 301 /11.php http://www.juozukas.lt/index.php
