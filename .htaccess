@@ -125,9 +125,7 @@ Redirect 301 /image/135x135/melrose_balta.jpg http://juozukas.lt/media/dynamic/i
 Redirect 301 /image/260x300/VR560.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /image/260x300/marskineliai_C271.gif http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /image/640x580/VR500.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
-
-Redirect 301 /media/dynamic/584_regular_2_vr810.png 		http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
-
+Redirect 301 /media/dynamic/584_regular_2_vr810.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/371/304_regular_2_mw192.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/415/348_regular_2_vr452.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/440/373_regular_2_vr310.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
@@ -139,7 +137,7 @@ Redirect 301 /media/dynamic/img/530/486_regular_2_vr710.png http://juozukas.lt/m
 Redirect 301 /media/dynamic/img/541/500_regular_2_vr730.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/571/530_regular_2_mw740.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/572/531_regular_2_mw730.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
-Redirect 301 /media/dynamic/img/584_regular_2_vr810.png 	http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
+Redirect 301 /media/dynamic/img/584_regular_2_vr810.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/590/549_regular_2_mm270.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/601/566_regular_2_mw790.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/611/583_regular_2_vr130.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
