@@ -147,3 +147,12 @@ Redirect 301 /media/dynamic/img/612/584_regular_2_vr810.png http://juozukas.lt/m
 Redirect 301 /media/dynamic/img/623/600_regular_2_mw840.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/628/605_regular_2_vr860.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
 Redirect 301 /media/dynamic/img/640/623_regular_2_mc270.png http://juozukas.lt/media/dynamic/img/607/570_regular_2_mw194.png
+
+
+#2017-08-05 redakcija
+Redirect 301 /lt/produktai/moteriski-marskineliai/klasikiniai-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/klasikiniai-marskineliai/
+Redirect 301 /lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte/
+Redirect 301 /lt/produktai/moteriski-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/
+Redirect 301 /lt/produktai/vyriski-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/
+Redirect 301 /lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai/
+Redirect 301 /lt/produktai/vyriski-marskineliai/marskineliai-be-rankoviu http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/marskineliai-be-rankoviu/
