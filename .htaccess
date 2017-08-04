@@ -150,9 +150,9 @@ Redirect 301 /media/dynamic/img/640/623_regular_2_mc270.png http://juozukas.lt/m
 
 
 #2017-08-05 redakcija
-Redirect 301 /lt/produktai/moteriski-marskineliai/klasikiniai-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/klasikiniai-marskineliai/
-Redirect 301 /lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte/
-Redirect 301 /lt/produktai/moteriski-marskineliai http://www.juozukas.lt/lt/produktai/moteriski-marskineliai/
-Redirect 301 /lt/produktai/vyriski-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/
-Redirect 301 /lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai/
-Redirect 301 /lt/produktai/vyriski-marskineliai/marskineliai-be-rankoviu http://www.juozukas.lt/lt/produktai/vyriski-marskineliai/marskineliai-be-rankoviu/
+Redirect 301 /lt/produktai/moteriski-marskineliai/klasikiniai-marskineliai http://www.juozukas.lt/index.php
+Redirect 301 /lt/produktai/moteriski-marskineliai/marskineliai-gilia-iskirpte http://www.juozukas.lt/index.php
+Redirect 301 /lt/produktai/moteriski-marskineliai http://www.juozukas.lt/index.php
+Redirect 301 /lt/produktai/vyriski-marskineliai http://www.juozukas.lt/index.php
+Redirect 301 /lt/produktai/vyriski-marskineliai/klasikiniai-marskineliai http://www.juozukas.lt/index.php
+Redirect 301 /lt/produktai/vyriski-marskineliai/marskineliai-be-rankoviu http://www.juozukas.lt/index.php
